@@ -1,4 +1,6 @@
-var a=6;
-var h=7; 
-var triangleArea=a*h/2; 
-console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
+var femaleNames = ['Grażyna', 'Basia', 'Lucyna', 'Jadwiga'];
+var maleNames = ['Janusz', 'Mietek', 'Andrzej', 'Jarek'];
+var arr= femaleNames.concat(maleNames);
+var test= arr.splice(1, 0, 'Maria');
+console.log(arr);
+console.log(test);
