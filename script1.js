@@ -1,9 +1,9 @@
-var femaleNames = ['Asia', 'Kasia', 'Ola', 'Jola'];
-var maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
-var allNames= femaleNames.concat(maleNames);
-var newName = ('Marian');
-if (allNames.indexOf(newName) === -1) ;{
-console.log('yes');
+var femaleNames = ['Asia', 'Kasia', 'Ola', 'Jola'],
+    maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'],
+    allNames= femaleNames.concat(maleNames),
+    newName = ('Marian');
+if (allNames.indexOf(newName) === -1) {
+  console.log('Brak wpisanego imienia');
+  var x= allNames.push('Marian');
 }
-var x= allNames.push('Marian');
-console.log(allNames);
+console.log(newName);
